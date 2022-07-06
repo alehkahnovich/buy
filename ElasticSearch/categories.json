@@ -1,0 +1,15 @@
+{
+	"module_id": 3,
+	"created_date": "2019-10-07",
+	"name": "Xiaomi",
+	"description": null,
+	"attributes": [
+		{"id": "1", "value": 2017, "type": "number"},
+		{"id": "2", "value": "Blue", "type": "string"},
+		{"id": "4", "value": 75000, "type": "number"}
+	],
+	"categories": [
+		{"id":"2"},
+		{"id":"1"}
+	]
+}

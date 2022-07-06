@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Buy.Infrastructure.Library" Version="1.1.0" />
+    <PackageReference Include="Buy.Kafka.Infrastructure" Version="1.2.0" />
+    <PackageReference Include="Buy.Rasterization.Contract" Version="1.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.6.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Buy.Upload.Contracts\Buy.Upload.Contracts.csproj" />
+    <ProjectReference Include="..\Buy.Upload.DataAccess\Buy.Upload.DataAccess.csproj" />
+    <ProjectReference Include="..\Buy.Upload.IO\Buy.Upload.IO.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+.upload_container {
+    color: #ccc;
+    padding: 10px
+}
+.upload_icon {
+    font-size: 8rem !important;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.upload_icon:hover {
+    color:#5bc0de;
+}
+.upload-dragging {
+    border: dashed #20a8d8 3px;
+}
+.upload_input {
+    display: none;
+}

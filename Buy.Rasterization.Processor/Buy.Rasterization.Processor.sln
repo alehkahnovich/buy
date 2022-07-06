@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buy.Rasterization.Processor", "Buy.Rasterization.Processor\Buy.Rasterization.Processor.csproj", "{8D1B9A3B-132A-4698-8FB7-B469ABCDECAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buy.Rasterization.Contract", "Buy.Rasterization.Contract\Buy.Rasterization.Contract.csproj", "{27C9BCBB-3EDF-421F-B382-45C94CACB151}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buy.Rasterization.DataAccess", "Buy.Rasterization.DataAccess\Buy.Rasterization.DataAccess.csproj", "{EFEC39E2-1759-4C0D-A10E-A67CE16CA6AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buy.Rasterization.Business", "Buy.Rasterization.Business\Buy.Rasterization.Business.csproj", "{4636EF95-03E3-4C01-90D9-0B760A68E000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buy.Rasterization.IO", "Buy.Rasterization.IO\Buy.Rasterization.IO.csproj", "{A791C374-E924-4DF3-842C-3C2D4D4320B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C176B840-219C-48C7-9E1F-86FE5979F1B4}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D1B9A3B-132A-4698-8FB7-B469ABCDECAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B9A3B-132A-4698-8FB7-B469ABCDECAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B9A3B-132A-4698-8FB7-B469ABCDECAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B9A3B-132A-4698-8FB7-B469ABCDECAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C9BCBB-3EDF-421F-B382-45C94CACB151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C9BCBB-3EDF-421F-B382-45C94CACB151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C9BCBB-3EDF-421F-B382-45C94CACB151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C9BCBB-3EDF-421F-B382-45C94CACB151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEC39E2-1759-4C0D-A10E-A67CE16CA6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEC39E2-1759-4C0D-A10E-A67CE16CA6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEC39E2-1759-4C0D-A10E-A67CE16CA6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEC39E2-1759-4C0D-A10E-A67CE16CA6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4636EF95-03E3-4C01-90D9-0B760A68E000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636EF95-03E3-4C01-90D9-0B760A68E000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4636EF95-03E3-4C01-90D9-0B760A68E000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4636EF95-03E3-4C01-90D9-0B760A68E000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A791C374-E924-4DF3-842C-3C2D4D4320B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A791C374-E924-4DF3-842C-3C2D4D4320B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A791C374-E924-4DF3-842C-3C2D4D4320B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A791C374-E924-4DF3-842C-3C2D4D4320B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63FFB9E8-1261-4446-8B6F-B697FABA02CD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+export const BUCKET_REQUESTED = 'BUCKET_REQUESTED';
+export const BUCKET_RECEIVED = 'BUCKET_RECEIVED';
+
+export const BUCKET_SET = 'BUCKET_SET';

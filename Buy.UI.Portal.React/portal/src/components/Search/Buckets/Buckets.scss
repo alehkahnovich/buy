@@ -1,0 +1,36 @@
+.facet_container {
+    background-color: #fff;
+    font-weight: 500 !important;
+    .nav-item.nav-dropdown {
+        .nav-link {
+            color: #2f353a;
+        }
+        .nav-dropdown-items {
+            .nav-link.active {
+                color: #2f353a;
+                background-color: #f0f3f5;
+            }
+            .nav-link {
+                color: #2f353a;
+                background-color:#fff;
+            }
+            .nav-link:hover {
+                background-color: #f0f3f5;
+                color:#2f353a;
+            }
+        }
+    }
+    .nav-item.nav-dropdown.open {
+        background-color: #fff;
+    }
+}
+
+.facet {
+    .nav-link {
+        padding-left: 10px !important;
+    }
+}
+
+.sidebar-minimizer {
+    background-color: #f0f3f5 !important;
+}

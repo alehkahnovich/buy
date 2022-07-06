@@ -1,0 +1,50 @@
+.facet_value {
+    margin-left: 5px;
+}
+.facet_reset_value {
+    float:right;
+}
+.facet_filter_border {
+    border-left: 4px solid #c8ced3;
+}
+.facet_filter_pallete {
+    &.navy {
+        border-left: 4px solid #001f3f;
+    }
+    &.blue {
+        border-left: 4px solid #0074D9;
+    }
+    &.aqua {
+        border-left: 4px solid #7FDBFF;
+    }
+    &.teal {
+        border-left: 4px solid #39CCCC;
+    }
+    &.olive {
+        border-left: 4px solid #2ECC40;
+    }
+    &.green {
+        border-left: 4px solid #01FF70;
+    }
+    &.lime {
+        border-left: 4px solid #FFDC00;
+    }
+    &.yellow {
+        border-left: 4px solid #FF851B;
+    }
+    &.orange {
+        border-left: 4px solid #FF4136;
+    }
+    &.red {
+        border-left: 4px solid #FF4136;
+    }
+    &.marron {
+        border-left: 4px solid #85144b;
+    }
+    &.fuchsia {
+        border-left: 4px solid #F012BE;
+    }
+    &.purple {
+        border-left: 4px solid #B10DC9;
+    }
+}

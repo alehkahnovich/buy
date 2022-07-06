@@ -1,0 +1,13 @@
+syntax = "proto3";
+package Buy.Upload.Proto;
+
+service UploadRequestService {
+	rpc Save(stream Chunk) returns (UploadRequestResult) {}
+}
+
+message Chunk {
+	bytes Content = 1;
+}
+message UploadRequestResult {
+	string Key = 1;
+}

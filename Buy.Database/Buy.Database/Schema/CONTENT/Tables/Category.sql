@@ -1,0 +1,15 @@
+﻿CREATE TABLE [CONTENT].[Category]
+(
+	[CategoryId] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[Name] NVARCHAR(255) NOT NULL,
+	[ParentId] INT,
+	[CreatedDate] DATETIME2(7) NOT NULL DEFAULT GETUTCDATE(),
+	[ModifiedDate] DATETIME2(7) NULL
+);
+GO
+
+ALTER TABLE [CONTENT].[Category]
+ADD CONSTRAINT FK_Category_Category FOREIGN KEY ([ParentId]) REFERENCES CONTENT.Category ([CategoryId])
+GO
+
+

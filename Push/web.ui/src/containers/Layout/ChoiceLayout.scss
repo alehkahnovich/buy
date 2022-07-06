@@ -1,0 +1,14 @@
+.choice-layout {
+    margin-top:5vh;
+    .choice {
+        h1 { font-weight: bold; }
+        .nav-link {
+            text-decoration: none;
+            color:#343a40;
+            cursor: pointer;
+        }
+        .nav-link:hover {
+            color: #0074D9;
+        }
+    }
+}

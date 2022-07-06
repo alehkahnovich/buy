@@ -1,0 +1,11 @@
+{"create":{"_index":"modules","_id":"1"}}
+{"module_id":1,"created_date":"2019-10-07","name":"Acura","description":null,"attributes":{"attr_1":["black","orange"],"attr_2":[25000], "attr_3":[3.5], "attr_4":["Acura"]},"categories":["2","4"]}
+{"create":{"_index":"modules","_id":"2"}}
+{"module_id":2,"created_date":"2019-10-07","name":"Bentley","description":null,"attributes":{"attr_1":["black"],"attr_2":[32000], "attr_3":[4.0], "attr_4":["Continental"]},"categories":["2","4"]}
+{"create":{"_index":"modules","_id":"3"}}
+{"module_id":3,"created_date":"2019-10-07","name":"BMW","description":null,"attributes":{"attr_1":["black"],"attr_2":[9200], "attr_3":[2.0], "attr_4":["E46"]},"categories":["2","4"]}
+{"create":{"_index":"modules","_id":"4"}}
+{"module_id":4,"created_date":"2019-10-07","name":"BMW","description":null,"attributes":{"attr_1":["black"],"attr_2":[14000], "attr_3":[4.4], "attr_4":["F01"]},"categories":["2","4"]}
+{"create":{"_index":"modules","_id":"5"}}
+{"module_id":5,"created_date":"2019-10-07","name":"Cadilac","description":null,"attributes":{"attr_1":["black"],"attr_2":[1600], "attr_3":[2.8], "attr_4":["Escalade"]},"categories":["2","4"]}
+

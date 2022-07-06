@@ -1,0 +1,10 @@
+﻿CREATE TABLE [IDP].[User]
+(
+	[UserId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Email] NVARCHAR(255) NOT NULL,
+	[Password] NVARCHAR(255) NOT NULL
+);
+GO
+
+CREATE INDEX IX_User_Email ON [IDP].[User] (Email);
+GO

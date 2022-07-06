@@ -1,0 +1,66 @@
+POST modules/_search
+{
+	"query": {
+      "bool": {
+        "must": [
+          {
+            "query_string": {
+              "query": "attributes.attr_2.number:[1000 TO 2000] attributes.attr_1:(Orange)",
+              "default_operator": "AND"
+            }
+          }
+        ],
+        "filter": [
+          { "term":  { "categories": "2" } },
+          { "term":  { "categories": "4" } }
+        ]
+      }
+	},
+	"aggs": {
+	  "1": {
+	    "terms": {
+	      "field": "attributes.attr_2.number"
+	    }
+	  }
+	}
+}
+
+
+{
+	"query": {
+		"bool": {
+			"must": [{
+				"match": {
+					"name": "Huawei"
+				}
+			}]
+		}
+	},
+	"aggs": {
+		"attributes": {
+			"global": {
+				
+			},
+			"aggs": {
+			  "1": {
+					"terms": {
+						"field": "attributes.attr_2.number",
+						"min_doc_count": 0
+					}
+				},
+				"2": {
+					"terms": {
+						"field": "attributes.attr_2.number",
+						"min_doc_count": 0
+					}
+				},
+				"5": {
+					"terms": {
+						"field": "attributes.attr_5.number",
+						"min_doc_count": 0
+					}
+				}
+			}
+		}
+	}
+}

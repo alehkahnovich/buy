@@ -1,0 +1,50 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@model Buy.Idp.Web.Representation.Login
+
+@{ Layout = "_Layout"; }
+<div class="container login-form">
+    <div class="row">
+        <form asp-route="Login" method="post" class="login-form">
+            @Html.AntiForgeryToken()
+            <div class="col s12">
+                <div class="row">
+                    <div class="input-field col s4 offset-s4">
+                        <h3>Buoy</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="row">
+                    <div class="row">
+                        <div class="input-field col s4 offset-s4">
+                            <input id="email" type="text" asp-for="Username" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 offset-s4">
+                            <input id="passwword" type="password" asp-for="Password" class="validate">
+                            <label for="passwword">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 offset-s4">
+                            <label>
+                                <input type="checkbox" />
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 offset-s4">
+                            <label>
+                                <input type="submit" class="waves-effect waves-light btn" value="Log In">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

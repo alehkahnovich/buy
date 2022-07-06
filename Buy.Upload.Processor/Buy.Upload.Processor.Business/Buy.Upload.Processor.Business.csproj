@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Buy.Infrastructure.Library" Version="1.1.0" />
+    <PackageReference Include="Buy.Upload.IO" Version="1.0.0" />
+    <PackageReference Include="CsvHelper" Version="12.1.2" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Buy.Upload.Processor.DataAccess\Buy.Upload.Processor.DataAccess.csproj" />
+    <ProjectReference Include="..\Buy.Upload.Processor.Messages\Buy.Upload.Processor.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
